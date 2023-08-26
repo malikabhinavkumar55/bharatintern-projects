@@ -1,0 +1,132 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .banner {
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .watch-btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  h2{
+    margin-top:20px;
+    margin-left: 5px;
+  }
+  .featured-shows {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .show-card {
+    margin: 10px;
+  }
+  
+  .show-card img {
+    max-width: 100%;
+  }
+
+  h5{
+    margin-top: 15px;
+  }
+  h6{
+    margin-top: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li {
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-links li {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .banner {
+      padding: 50px 0;
+    }
+  
+    .banner-content {
+      max-width: 90%;
+    }
+  
+    .show-card {
+      flex: 0 0 calc(50% - 40px);
+    }
+  }
+  
